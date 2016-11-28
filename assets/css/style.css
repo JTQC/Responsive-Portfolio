@@ -1,0 +1,644 @@
+body {
+	margin: auto;
+	padding: auto;
+	background: #efeee7;
+	font-size: 18px;
+	line-height: 150%;
+		font-family: 'Oswald', sans-serif;
+	color: #333333;
+	width:960px;
+
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "Permanent Marker", Times, Times New Roman, serif;
+}
+
+h2 {
+	font-family: "Permanent Marker", Times, Times New Roman, serif;
+}
+
+h3 {
+font-family: "Permanent Marker", Times, Times New Roman, serif;
+	color:#4aaaa5;
+}
+
+.links 
+	{
+		font-size: 13px;
+		width: auto;
+		height: 70px;
+		margin: 0 -500 0 -500 ;
+		background: white;
+		color: grey;
+		text-decoration: none;
+		position: relative;
+		border-bottom-color: grey;
+		border-bottom-width: 100%;
+		border-bottom-style: solid;
+	}
+
+
+header {
+	background: teal;
+	display: inline-block;
+	color: white;
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: -75px;
+	border-bottom-color: grey;
+	border-bottom-width: 100%;
+	border-bottom-style: solid;
+	margin: auto;
+	width:20%;
+	text-align: center;
+
+
+}
+
+caption {
+	background: white;
+	color: teal;
+	display: table-caption;
+	text-align: left;
+	right: 15px;
+	margin: auto;
+			font-family: 'Oswald', sans-serif;
+}
+
+img {
+	width:273px;
+	height:207px;
+	margin: auto;
+}
+
+table {
+	margin: auto;
+	display: table;
+	border-top-style: solid;
+	border-top: thin gray;
+	border-spacing: 40px;
+	position: relative;
+	background: white;
+	float:left;	
+	width: 650px;
+
+}
+
+.about	{
+	
+	width: 5%;
+	background: white;
+	color: white;
+	text-align: center;
+	position: relative;
+	right: 500px;
+	float: right;
+	margin: auto;
+}
+
+.portfolio {
+	float: right;
+	width: 5%;
+	text-align: center;
+	position: relative;
+	right: 350px;
+	margin: auto;
+
+}
+
+.contact {
+	float: right;
+	width: 5%;
+	text-align: center;
+	position: relative;
+	right: 200px;
+	margin: auto;
+}
+
+.connect {
+	float: right;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-left-width: 10px;
+	border-left-style: solid;
+	background-color: white;
+	border-color: white;
+	border-bottom-color: lightgrey;
+	margin: auto;
+	width:270px;
+	position: absolute;
+	right: 150px;
+	text-align: center;
+
+}
+
+.img2 {
+	width:64px;
+	height:64px;
+	margin: auto;
+}
+
+.imagemyself{
+	width:273px;
+	height:273px;
+	margin: auto;
+	float: left;
+}
+
+hr {
+	width: 75%;
+	height: 5px;
+	float:left;
+	background: lightgrey;
+}
+
+.forms {
+	margin: auto;
+	position: relative;
+	background: white;
+	float:left;	
+	width: 650px;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: -15px 0;
+    box-sizing: border-box;
+}
+
+.message {
+	width: 100%;
+	height: 200px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 15%;
+	background-color: teal;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 8px;
+	border:none;
+	cursor: pointer;
+
+}
+
+h4 {
+	color: navy;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	border-top-color: teal
+	border-top-width: 5px;
+	background: #666666;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	width: auto;
+	height: 70px;
+	margin: 0 -500 -50 -500 ;
+	position: relative;
+	border-top-width: 100%;
+	border-top-style: solid;
+}
+
+.bio {
+	float: left;
+	width: 5%;
+	text-align: left;
+	position: relative;
+	margin: auto;
+	position: relative;
+	background: white;
+	float:left;	
+	width: 650px;
+	
+}
+
+li {
+	text-align:right;
+}
+
+			@media screen and (max-width: 980px) {
+
+			body {
+				width: 980px;
+			}
+
+			.links 
+				{
+					font-size: 13px;
+					height: 150px;
+					background: white;
+					color: grey;
+					text-decoration: none;
+					border-bottom-color: grey;
+					border-bottom-width: 100%;
+					border-bottom-style: solid;
+				}
+
+			.imagemyself {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 15px;
+				float: none;
+			}
+
+			.about	{
+				
+				background: white;
+				color: white;
+				text-align: center;
+				margin: auto;
+				top: 50px;
+				font-size: 20;
+				right: 750px;
+			}
+
+			.portfolio {
+				width: 5%;
+				text-align: center;
+				margin: auto;
+				top: 50px;
+				font-size: 20;
+				right: 550px;
+
+			}
+
+			.contact {
+				width: 5%;
+				text-align: center;
+				margin: auto;
+				top: 50px;
+				font-size: 20;
+				right: 350px;
+
+			}
+
+			header {
+				background: teal;
+				display: inline-block;
+				color: white;
+				position: relative;
+				z-index: 1;
+				left: 65px;
+				top: -140px;
+				border-bottom-color: grey;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				margin: auto;
+				width:auto;
+				text-align: center;
+				height:auto;
+
+
+			}
+
+			h2 {
+				font-family: "Permanent Marker", Times, Times New Roman, serif;
+				font-size:65px;
+			}
+
+			.bio {
+				float: left;
+				width: 425px;
+				text-align: left;
+				margin: auto;
+				background: white;
+				left: 100px;	
+				top: -125px;
+				
+			}
+
+			.footer {
+				border-top-color: teal
+				border-top-width: 5px;
+				background: #666666;
+				text-align: center;
+				color: white;
+				font-size: 10px;
+				width: auto;
+				height: 70px;
+				margin: 0 -500 -50 -500 ;
+				position: relative;
+				border-top-width: 100%;
+				border-top-style: solid;
+				top:-100px;
+			}
+
+			img {
+				width:273px;
+				height:207px;
+				margin: auto;
+				align-items: center;
+			}	
+
+			p {
+				top: 10px;
+			}
+
+			.connect {
+				float: right;
+				border-top-width: 10px;
+				border-top-style: solid;
+				border-right-width: 10px;
+				border-right-style: solid;
+				border-bottom-width: 5px;
+				border-bottom-style: solid;
+				border-left-width: 10px;
+				border-left-style: solid;
+				background-color: white;
+				border-color: white;
+				border-bottom-color: lightgrey;
+				margin: auto;
+				width:270px;
+				right: -1px;
+				text-align: center;
+
+			}
+			}			
+
+
+@media screen and (max-width: 768px) {
+
+body {
+	width: 768px;
+}
+
+.links 
+	{
+		font-size: 13px;
+		height: 125px;
+		background: white;
+		color: grey;
+		text-decoration: none;
+		border-bottom-color: grey;
+		border-bottom-width: 100%;
+		border-bottom-style: solid;
+	}
+
+.about	{
+	
+	background: white;
+	color: white;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 750px;
+}
+
+.portfolio {
+	width: 5%;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 550px;
+
+}
+
+.contact {
+	width: 5%;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 350px;
+
+}
+
+header {
+	background: teal;
+	display: inline-block;
+	color: white;
+	position: relative;
+	z-index: 1;
+	left: 65px;
+	border-bottom-color: grey;
+	border-bottom-width: 100%;
+	border-bottom-style: solid;
+	margin: auto;
+	width: 248;
+	text-align: center;
+	height: 88;
+
+
+}
+
+h2 {
+	font-family: "Permanent Marker", Times, Times New Roman, serif;
+	font-size: 22px;
+}
+
+.bio {
+	float: left;
+	width: 65%;
+	text-align: left;
+	margin: auto;
+	background: white;
+	left: 100px;	
+	top: -75px;
+	position: relative;
+	
+}
+
+.footer {
+	border-top-color: teal
+	border-top-width: 5px;
+	background: #666666;
+	color: white;
+	font-size: 20px;
+	width: auto;
+	height: 70px;
+	margin: auto;
+	top: 100px;
+	border-top-width: 100%;
+	border-top-style: solid;
+	
+	text-align: center;
+}
+
+img {
+	width:273px;
+	height:207px;
+	margin: auto;
+	align-items: center;
+}	
+
+p {
+	top: 10px;
+}
+
+.connect {
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-left-width: 10px;
+	border-left-style: solid;
+	background-color: white;
+	border-color: white;
+	border-bottom-color: lightgrey;
+	margin: 15px;
+	width: 75%;
+	text-align: center;
+	bottom: -350px;
+	left: 50px;
+}
+
+		
+
+}
+
+@media screen and (max-width: 640px) {
+
+body {
+	width: 640px;
+}
+
+.links 
+	{
+		font-size: 13px;
+		height: 125px;
+		background: white;
+		color: grey;
+		text-decoration: none;
+		border-bottom-color: grey;
+		border-bottom-width: 100%;
+		border-bottom-style: solid;
+	}
+
+.about	{
+	
+	background: white;
+	color: white;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 750px;
+}
+
+.portfolio {
+	width: 5%;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 550px;
+
+}
+
+.contact {
+	width: 5%;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+	font-size: 13;
+	right: 350px;
+
+}
+
+header {
+	background: teal;
+	display: inline-block;
+	color: white;
+	position: relative;
+	z-index: 1;
+	left: 65px;
+	border-bottom-color: grey;
+	border-bottom-width: 100%;
+	border-bottom-style: solid;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	height: 88;
+
+
+}
+
+h2 {
+	font-family: "Permanent Marker", Times, Times New Roman, serif;
+	font-size: 22px;
+}
+
+.bio {
+	float: left;
+	width: 65%;
+	text-align: left;
+	margin: auto;
+	background: white;
+	left: 100px;	
+	top: -75px;
+	position: relative;
+	
+}
+
+.footer {
+	border-top-color: teal
+	border-top-width: 5px;
+	background: #666666;
+	color: white;
+	font-size: 20px;
+	width: auto;
+	height: 70px;
+	margin: auto;
+	top: 100px;
+	border-top-width: 100%;
+	border-top-style: solid;
+	
+	text-align: center;
+}
+
+img {
+	width:273px;
+	height:207px;
+	margin: auto;
+	align-items: center;
+}	
+
+p {
+	top: 10px;
+}
+
+.connect {
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-left-width: 10px;
+	border-left-style: solid;
+	background-color: white;
+	border-color: white;
+	border-bottom-color: lightgrey;
+	margin: 15px;
+	width: 75%;
+	text-align: center;
+	bottom: -400px;
+	left: 40px;
+}
+
+}
